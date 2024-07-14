@@ -1,0 +1,10 @@
+.header{
+    background-color: var(--bg);
+    margin: 1rem auto 2rem;
+    padding: 2rem 0em 3em;
+    margin: 0px;
+}
+
+.header div img {
+    border-radius: 50px;
+}

@@ -1,0 +1,56 @@
+:root{
+  --text: rgb(52, 52, 52);
+
+  --bg: rgb(248 239 227);
+  --bg-b: rgb(255 236 211);
+  --first:rgb(31 95 134);
+  --first-b:rgb(22, 68, 97);
+  --second:rgb(242, 57, 54);
+
+}
+
+
+@font-face {
+  font-family: 'NanumGothic';
+  src: url(./Resource/font/NanumGothic-Regular.ttf) format('ttf');
+}
+
+
+*, * > *{
+  box-sizing: border-box;
+  color: var(--text);
+  line-height: 1.5em;
+  font-family: "NanumGothic";
+}
+
+/* .bold{ font-weight: bold;}
+.c_normal{color: var(--dark2);}
+.t_center{text-align: center;}
+.t_right{text-align: right;}
+
+
+.max900{ max-width: 900px;}
+.m_center{margin-left: auto; margin-right: auto;} */
+
+
+main{
+  min-height: 80vh;
+  background-color: var(--bg) ;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
