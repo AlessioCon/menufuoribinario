@@ -1,5 +1,5 @@
 import { FC } from "react";
-import FoodStore from "../../../FoodStore/FoodStore";
+import FoodStore from "./../../../FoodStore/FoodStore";
 
 import style from "./FoodInLine.module.css"
 

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import style from "./stylepage/Home.module.css";
 
-import CategoryCard from "../Component/CategoryCard/CategoryCard";
+import CategoryCard from "./../Component/CategoryCard/CategoryCard";
 
 import FoodStore, {ANTIPASTI, BUN, CIABATTE, WRAP, BUNCLASSICI, CARNE, VEGINSALATE, CONTORNI, BIBITE, VINI, BIRREALLASPINA, BIRREINBOTTIGLIA} from "./../FoodStore/FoodStore"
 
