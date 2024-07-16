@@ -14,36 +14,6 @@ function App() {
     {
       path: "/",
       element: <Root/>,
-      //TODO:INSERT ERROR ELEMENT
-      //errorElement:<INSERTERRORELEMENT/>
-      // children:[
-      //   {
-      //     path:"events",
-      //     children: [
-      //       {
-      //         index:true,
-      //         element:<Gevents/>,
-      //         loader: async () => {
-      //           return await loaderGeventsPage();
-      //         }
-      //       },
-      //       {
-      //         path: ":name",
-      //         element: <Gevent/>,
-      //         loader: async ({params}) => {
-      //           return await loaderGeventPage(params.name)
-      //         }
-      //       },
-      //       {
-      //         path: ":name/play",
-      //         element:<Game/>,
-      //         loader: async ({params}) => {
-      //           return await loaderGamePage(params.name)
-      //         }
-      //       }
-      //     ],
-      //   },
-      // ]
     },
   ]);
   

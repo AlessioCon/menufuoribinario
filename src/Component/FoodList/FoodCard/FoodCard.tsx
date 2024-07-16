@@ -29,7 +29,7 @@ const FoodCard : FC<{food: FoodStore}> = ({ food }) => {
                 <polygon points="135,5 145,20 125,20" />
             </svg>
             <div className={style.imgBox}>
-                <img src={AllImg[food.img || "NotFound"]}/>
+                <img alt={food.name} title={food.name} src={AllImg[food.img] || AllImg["NotFound"]}/>
             </div>
             <div className={style.info}>
                 {food.ingredients.length > 1 && <button className={style.btn} title="vedi ingredienti" onClick={e =>ToggleIngredients(e, "id_"+food.name)}>Ingredienti</button>}

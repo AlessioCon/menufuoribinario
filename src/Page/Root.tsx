@@ -15,6 +15,6 @@ export default function Root(){
         <main>
             {outlet || <Home/>}
         </main>
-        <Footer/>
+        {/* <Footer/> */}
     </>
 }

@@ -40,40 +40,40 @@ const ANTIPASTI : FoodStore[] = [
 ];
 
 const BUN : FoodStore[] = [
-  { name: "Boston", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","english cheddar orange", "bacon croccante", "patatine fritte", "cipolla di tropea caramellata", "salsa bbq", "mayo"] , img:"Panino"},
+  { name: "Boston", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","english cheddar orange", "bacon croccante", "patatine fritte", "cipolla di tropea caramellata", "salsa bbq", "mayo"] , img:"Boston"},
   { name: "PHILADELPHIA", price: 15, qt: 1, ingredients: ["Hamburger di grana 300gr","verdure infornate (peperoni, zucchine, patate)", "doppio formaggio fuso", "parmacotto","uova", "mayo"] , img:"Panino1"},
-  { name: "LOS ANGELES", price: 12, qt: 1, ingredients: ["Sovracosce di pollo crispy", "patate di Avezzano al forno", "caciocavallo silano DOP", "bacon croccante", "mayo al peperoncino dello chef"] , img:""},
+  { name: "LOS ANGELES", price: 12, qt: 1, ingredients: ["Sovracosce di pollo crispy", "patate di Avezzano al forno", "caciocavallo silano DOP", "bacon croccante", "mayo al peperoncino dello chef"] , img:"Losangeles"},
   { name: "SANTA BARBARA", price: 10, qt: 1, ingredients: ["Hamburger di maiale nero casertano 180gr", "provola di Agerola", "mortadella di bologna IGP", "patate al forno di Avezzano", "crema di pistacchio homemade"] , img:""},
   { name: "SAN FRANCISCO", price: 16, qt: 1, ingredients: ["Doppio hamburger marchigiana 200gr", "doppio english cheddar orange", "doppio bacon croccante", "doppia cipolla di tropea caramellata", "patate fritte"] , img:""},
-  { name: "LAS VEGAS", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr", "patate al forno di Avezzano", "bocconcini di bufala campana", "bacon croccante", "melanzane a funghetto", "crema al pesto di basilico homemade"] , img:""},
-  { name: "MONTEREY", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 250gr", "parmigiana di melanzane al ragù", "bocconcini di bufala campana", "pesto di basilico homemade"] , img:""},
+  { name: "LAS VEGAS", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr", "patate al forno di Avezzano", "bocconcini di bufala campana", "bacon croccante", "melanzane a funghetto", "crema al pesto di basilico homemade"] , img:"Lasvegas"},
+  { name: "MONTEREY", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 250gr", "parmigiana di melanzane al ragù", "bocconcini di bufala campana", "pesto di basilico homemade"] , img:"Monterey"},
   { name: "NEW ORLEANS", price: 12, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr", "patate al forno di Avezzano", "parmacotto", "bocconcini di bufala", "tarallo sbriciolato", "mayo al pepe dello chef"] , img:""},
-  { name: "COLORADO", price: 15, qt: 1, ingredients: ["Hamburger di maialino nero 180gr","speck","caciocavallo silano DOP","zucchine alla scapece","crema di zucchine alla scapece","mayo alla menta dello chef","cialda di grana padano DOP"] , img:""},
+  { name: "COLORADO", price: 15, qt: 1, ingredients: ["Hamburger di maialino nero 180gr","speck","caciocavallo silano DOP","zucchine alla scapece","crema di zucchine alla scapece","mayo alla menta dello chef","cialda di grana padano DOP"] , img:"Colorado"},
   { name: "MIAMI", price: 10, qt: 1, ingredients: ["Pulled pork cottura slow and low","caciocavallo","cavolo viola coleslaw","cipolla di tropea caramellata"] , img:""},
   { name: "PORTLAND", price: 13, qt: 1, ingredients: ["Hamburger di pollo crispy","english cheddar orange","bacon","pomodoro cuore di bue","insalata iceberg","cipolla croccante","salsa special dello chef"] , img:""},
-  { name: "MANHATTAN", price: 12, qt: 1, ingredients: ["Hamburger di pollo di 180 gr crispy","provola di Agerola","bacon croccante","peperoncini verdi","mayo"] , img:""},
+  { name: "MANHATTAN", price: 12, qt: 1, ingredients: ["Hamburger di pollo di 180 gr crispy","provola di Agerola","bacon croccante","peperoncini verdi","mayo"] , img:"Manhattan"},
   { name: "ORLANDO", price: 11, qt: 1, ingredients: ["Pulled pork homemade cottura slow and low","bacon croccante","patate al forno di Avezzano","english cheddar orange","cipolla caramellata","salsa special dello chef"] , img:""},
-  { name: "PANINO DELLO CHEF", price: 11, qt: 1, ingredients: ["Polpette fritte di marchigiana","formaggio fuso","peperoncini verdi","tarallo sbriciolato","mayo al peperoncino homemade"] , img:""},
-  { name: "SMASH BUN", price: 10, qt: 1, ingredients: ["Doppio hamburger marchigiana 100gr smashed","doppio english cheddar orange","doppio bacon croccante"] , img:""},
+  { name: "PANINO DELLO CHEF", price: 11, qt: 1, ingredients: ["Polpette fritte di marchigiana","formaggio fuso","peperoncini verdi","tarallo sbriciolato","mayo al peperoncino homemade"] , img:"Chef"},
+  { name: "SMASH BUN", price: 10, qt: 1, ingredients: ["Doppio hamburger marchigiana 100gr smashed","doppio english cheddar orange","doppio bacon croccante"] , img:"Smash"},
   { name: "TEXAS", price: 14, qt: 1, ingredients: ["Hamburger di marchigiana 250gr","provola di Agerola crispy","patate al forno di Avezzano","peperoncini verdi","prosciutto crudo di Parma","mayo al basilico dello chef"] , img:""},
-  { name: "LOUISIANA", price: 12, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","melanzane grill","provola di Agerola","pomodori semidry","speck","nocciole del piemonte IGP","mayo"] , img:""},
+  { name: "LOUISIANA", price: 12, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","melanzane grill","provola di Agerola","pomodori semidry","speck","nocciole del piemonte IGP","mayo"] , img:"Louisiana"},
   { name: "MASSACHUSSETS", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","provola di Agerola crispy","pomodor cuore di bue","prosciutto crudo di Parma","zucchine grill","mayo"] , img:""},
-  { name: "PANINO DELLO CHEF 2.0", price: 11, qt: 1, ingredients: ["Hamburger marchigiana 200gr","caciocavallo silano DOP","cavolo viola coleslaw","crema di zucchine","salsa tartufata homemade"] , img:""},
+  { name: "PANINO DELLO CHEF 2.0", price: 11, qt: 1, ingredients: ["Hamburger marchigiana 200gr","caciocavallo silano DOP","cavolo viola coleslaw","crema di zucchine","salsa tartufata homemade"] , img:"Chef2"},
 ]
 
 const CIABATTE : FoodStore[] = [
   { name: "DENVER", price: 11, qt: 1, ingredients: ["Polpette fritte","caciocavallo silano DOP","melanzane a funghetto","prosciutto crudo di Parma","mayo al basilico dello chef"] , img:""},
   { name: "SAN DIEGO", price: 11, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","provola di Agerola","prosciutto crudo di Parma","pomodoro cuore di bue","insalata iceberg","mayo"] , img:""},
   { name: "SEATTLE", price: 11, qt: 1, ingredients: ["Banditos","provola di Agerola","verdure infornate (zucchine","peperoni","patate)","prosciutto cotto","mayo al rosmarino dello chef"] , img:""},
-  { name: "WASHINGTON", price: 14, qt: 1, ingredients: ["Porchetta di Ariccia","verdure infornate (zucchine","peperoni","patate)","provola di Agerola crispy","melanzane a funghetto","parmacotto","mayo al basilico dello chef"] , img:""},
+  { name: "WASHINGTON", price: 14, qt: 1, ingredients: ["Porchetta di Ariccia","verdure infornate (zucchine","peperoni","patate)","provola di Agerola crispy","melanzane a funghetto","parmacotto","mayo al basilico dello chef"] , img:"Washington"},
   { name: "CINCINNATI", price: 10, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","patate al forno di Avezzano","zucchine alla scapece","mayo alla menta dello chef"] , img:""},
 ]
 
 const WRAP : FoodStore[] = [
   { name: "MISSOURI", price: 11, qt: 1, ingredients: ["Banditos","misticanza","pomodori secchi","cipolla di tropea caramellata","caciocavallo silano DOP","mayo"] , img:""},
   { name: "NASHVILLE", price: 12, qt: 1, ingredients: ["Pulled pork homemade cottura slow and low","bacon croccante","patate fritte","english cheddar orange","cipolla di tropea caramellata","salsa bbq","mayo"] , img:""},
-  { name: "MEMPHIS", price: 14, qt: 1, ingredients: ["Straccetti di carne marchigiana","patatine fritte","cheddar","insalata","bacon croccante","cipolla croccante","bbq","mayo"] , img:""},
-  { name: "INDIANAPOLIS", price: 10, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","prosciutto crudo di Parma","peperoncini verdi","tarallo napoletano sbriciolato","mayo al pepe homemade"] , img:""},
+  { name: "MEMPHIS", price: 14, qt: 1, ingredients: ["Straccetti di carne marchigiana","patatine fritte","cheddar","insalata","bacon croccante","cipolla croccante","bbq","mayo"] , img:"Memphis"},
+  { name: "INDIANAPOLIS", price: 10, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","prosciutto crudo di Parma","peperoncini verdi","tarallo napoletano sbriciolato","mayo al pepe homemade"] , img:"Indianapolis"},
   { name: "DALLAS", price: 9, qt: 1, ingredients: ["Melanzane grigliate","pomodori secchi","patate al forno di Avezzano","misticanza","caciocavallo silano DOP","mayo al basilico homemade"] , img:""},
 ]
 
