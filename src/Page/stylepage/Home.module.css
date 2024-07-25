@@ -1,3 +1,59 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.hiro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 1rem;
+} 
+
+.hiro ul {
+    width: 100%;
+    list-style: none;
+    background-color: white;
+    padding: 0.5rem 1em 1rem;
+    display: inline-block;
+    transform: rotate(-10deg) translateY(-40px);
+    box-shadow: -10px 10px 10px -10px rgba(0,0,0,0.2);
+}
+ul.rotateHiro{
+    transform: rotate(7deg);
+
+}
+
+.hiro ul li{
+    display: inline;
+}
+
+.meseBox{
+    width: 100%;
+    background-color: white;
+    padding: 0.6rem 0.6rem 0rem;
+    transform: rotate(10deg);
+    margin-bottom: 1rem;
+    box-shadow: -10px 10px 10px -10px rgba(0,0,0,0.2);
+}
+
+.meseBox.rotateHiro {
+    transform: rotate(-7deg);
+}
+
+.meseBox img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.meseBox p{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+    text-align: center;
+    padding: 1rem;
+}
+
 .categoryBox{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,7 +82,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     display: grid;
-    grid-template-columns: 1fr 0.3fr;
+    grid-template-columns: 1fr auto auto;
     align-items: center;
     border-left: 3px dashed var(--first-b);
     border-bottom: 3px solid var(--first-b);
@@ -40,12 +96,44 @@
     margin: 0px;
     text-transform: uppercase;
 }
-
-.menuCategory > a img{
+.menuCategory > button img
+{
     display: block;
-    width: 32px;
-    height: 32px;
-    margin-left: auto;
+    width: 16px;
+    height: 16px;
+}
+
+.menuCategory > a{
+    background-color: var(--bg);
+    text-decoration: none;
+    border: 1px solid var(--text);
+    font-size: 0.8rem;
+    padding: 0.4rem 0.7rem;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.menuCategory > button{
+    background: none;
+    border: 0px;
+    margin-left: 16px;
+}
+
+
+
+.openSection .menuCategory > button > img{
+    transform: rotate(90deg);
+}
+
+
+
+.list{
+    overflow: hidden;
+    height: 0;
+
+}
+.openSection .list{
+    height: initial;
 }
 
 

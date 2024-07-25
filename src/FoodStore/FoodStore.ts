@@ -41,13 +41,13 @@ const ANTIPASTI : FoodStore[] = [
 
 const BUN : FoodStore[] = [
   { name: "Boston", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","english cheddar orange", "bacon croccante", "patatine fritte", "cipolla di tropea caramellata", "salsa bbq", "mayo"] , img:"Boston"},
-  { name: "PHILADELPHIA", price: 15, qt: 1, ingredients: ["Hamburger di grana 300gr","verdure infornate (peperoni, zucchine, patate)", "doppio formaggio fuso", "parmacotto","uova", "mayo"] , img:"Panino1"},
+  { name: "PHILADELPHIA", price: 15, qt: 1, ingredients: ["Hamburger di grana 300gr","verdure infornate (peperoni, zucchine, patate)", "doppio formaggio fuso", "parmacotto","uova", "mayo"] , img:"Philadelphia"},
   { name: "LOS ANGELES", price: 12, qt: 1, ingredients: ["Sovracosce di pollo crispy", "patate di Avezzano al forno", "caciocavallo silano DOP", "bacon croccante", "mayo al peperoncino dello chef"] , img:"Losangeles"},
   { name: "SANTA BARBARA", price: 10, qt: 1, ingredients: ["Hamburger di maiale nero casertano 180gr", "provola di Agerola", "mortadella di bologna IGP", "patate al forno di Avezzano", "crema di pistacchio homemade"] , img:""},
   { name: "SAN FRANCISCO", price: 16, qt: 1, ingredients: ["Doppio hamburger marchigiana 200gr", "doppio english cheddar orange", "doppio bacon croccante", "doppia cipolla di tropea caramellata", "patate fritte"] , img:""},
   { name: "LAS VEGAS", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr", "patate al forno di Avezzano", "bocconcini di bufala campana", "bacon croccante", "melanzane a funghetto", "crema al pesto di basilico homemade"] , img:"Lasvegas"},
   { name: "MONTEREY", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 250gr", "parmigiana di melanzane al ragù", "bocconcini di bufala campana", "pesto di basilico homemade"] , img:"Monterey"},
-  { name: "NEW ORLEANS", price: 12, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr", "patate al forno di Avezzano", "parmacotto", "bocconcini di bufala", "tarallo sbriciolato", "mayo al pepe dello chef"] , img:""},
+  { name: "NEW ORLEANS", price: 12, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr", "patate al forno di Avezzano", "parmacotto", "bocconcini di bufala", "tarallo sbriciolato", "mayo al pepe dello chef"] , img:"Neworleans"},
   { name: "COLORADO", price: 15, qt: 1, ingredients: ["Hamburger di maialino nero 180gr","speck","caciocavallo silano DOP","zucchine alla scapece","crema di zucchine alla scapece","mayo alla menta dello chef","cialda di grana padano DOP"] , img:"Colorado"},
   { name: "MIAMI", price: 10, qt: 1, ingredients: ["Pulled pork cottura slow and low","caciocavallo","cavolo viola coleslaw","cipolla di tropea caramellata"] , img:""},
   { name: "PORTLAND", price: 13, qt: 1, ingredients: ["Hamburger di pollo crispy","english cheddar orange","bacon","pomodoro cuore di bue","insalata iceberg","cipolla croccante","salsa special dello chef"] , img:""},
@@ -55,6 +55,7 @@ const BUN : FoodStore[] = [
   { name: "ORLANDO", price: 11, qt: 1, ingredients: ["Pulled pork homemade cottura slow and low","bacon croccante","patate al forno di Avezzano","english cheddar orange","cipolla caramellata","salsa special dello chef"] , img:""},
   { name: "PANINO DELLO CHEF", price: 11, qt: 1, ingredients: ["Polpette fritte di marchigiana","formaggio fuso","peperoncini verdi","tarallo sbriciolato","mayo al peperoncino homemade"] , img:"Chef"},
   { name: "SMASH BUN", price: 10, qt: 1, ingredients: ["Doppio hamburger marchigiana 100gr smashed","doppio english cheddar orange","doppio bacon croccante"] , img:"Smash"},
+  { name: "NEW SMASH BUN", price: 12, qt: 1, ingredients: ["Doppio hamburger marchigiana 100gr smashed","doppio english cheddar orange","doppio bacon croccante","colata cheddar e bacon"] , img:"Newsmash"},
   { name: "TEXAS", price: 14, qt: 1, ingredients: ["Hamburger di marchigiana 250gr","provola di Agerola crispy","patate al forno di Avezzano","peperoncini verdi","prosciutto crudo di Parma","mayo al basilico dello chef"] , img:""},
   { name: "LOUISIANA", price: 12, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","melanzane grill","provola di Agerola","pomodori semidry","speck","nocciole del piemonte IGP","mayo"] , img:"Louisiana"},
   { name: "MASSACHUSSETS", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","provola di Agerola crispy","pomodor cuore di bue","prosciutto crudo di Parma","zucchine grill","mayo"] , img:""},
@@ -64,7 +65,7 @@ const BUN : FoodStore[] = [
 const CIABATTE : FoodStore[] = [
   { name: "DENVER", price: 11, qt: 1, ingredients: ["Polpette fritte","caciocavallo silano DOP","melanzane a funghetto","prosciutto crudo di Parma","mayo al basilico dello chef"] , img:""},
   { name: "SAN DIEGO", price: 11, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","provola di Agerola","prosciutto crudo di Parma","pomodoro cuore di bue","insalata iceberg","mayo"] , img:""},
-  { name: "SEATTLE", price: 11, qt: 1, ingredients: ["Banditos","provola di Agerola","verdure infornate (zucchine","peperoni","patate)","prosciutto cotto","mayo al rosmarino dello chef"] , img:""},
+  { name: "SEATTLE", price: 11, qt: 1, ingredients: ["Banditos","provola di Agerola","verdure infornate (zucchine","peperoni","patate)","prosciutto cotto","mayo al rosmarino dello chef"] , img:"Seattle"},
   { name: "WASHINGTON", price: 14, qt: 1, ingredients: ["Porchetta di Ariccia","verdure infornate (zucchine","peperoni","patate)","provola di Agerola crispy","melanzane a funghetto","parmacotto","mayo al basilico dello chef"] , img:"Washington"},
   { name: "CINCINNATI", price: 10, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","patate al forno di Avezzano","zucchine alla scapece","mayo alla menta dello chef"] , img:""},
 ]
@@ -72,8 +73,8 @@ const CIABATTE : FoodStore[] = [
 const WRAP : FoodStore[] = [
   { name: "MISSOURI", price: 11, qt: 1, ingredients: ["Banditos","misticanza","pomodori secchi","cipolla di tropea caramellata","caciocavallo silano DOP","mayo"] , img:""},
   { name: "NASHVILLE", price: 12, qt: 1, ingredients: ["Pulled pork homemade cottura slow and low","bacon croccante","patate fritte","english cheddar orange","cipolla di tropea caramellata","salsa bbq","mayo"] , img:""},
-  { name: "MEMPHIS", price: 14, qt: 1, ingredients: ["Straccetti di carne marchigiana","patatine fritte","cheddar","insalata","bacon croccante","cipolla croccante","bbq","mayo"] , img:"Memphis"},
-  { name: "INDIANAPOLIS", price: 10, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","prosciutto crudo di Parma","peperoncini verdi","tarallo napoletano sbriciolato","mayo al pepe homemade"] , img:"Indianapolis"},
+  { name: "MEMPHIS", price: 14, qt: 1, ingredients: ["Straccetti di carne marchigiana","patatine fritte","cheddar","insalata","bacon croccante","cipolla croccante","bbq","mayo"] , img:""},
+  { name: "INDIANAPOLIS", price: 10, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","prosciutto crudo di Parma","peperoncini verdi","tarallo napoletano sbriciolato","mayo al pepe homemade"] , img:""},
   { name: "DALLAS", price: 9, qt: 1, ingredients: ["Melanzane grigliate","pomodori secchi","patate al forno di Avezzano","misticanza","caciocavallo silano DOP","mayo al basilico homemade"] , img:""},
 ]
 
@@ -152,7 +153,18 @@ const BIRREALLASPINA : FoodStore[] = [
 const BIRREINBOTTIGLIA : FoodStore[] = [
   { name: "MöNCHSHOF NATUR RADLER (Birra al limone 2,5 gradi)", price: 6.50, qt: 1, ingredients: ["50cl"] , img:""},
   { name: "MöNCHSHOF ORIGINAL (Bionda chiara 4,9 gradi)", price: 6.50, qt: 1, ingredients: ["50cl"] , img:""},
-  { name: "MöNCHSHOF BOCKBIER (rossa doppio malto 6,9 gradi)", price: 7, qt: 1, ingredients: ["50cl"] , img:""},
+  { name: "MöNCHSHOF BOCKBIER (rossa doppio malto 6,9 gradi)", price: 7, qt: 1, ingredients: ["50cl"] , img:""}
+]
+
+const DOLCI : FoodStore[] = [
+  { name: "GIANDUIOTTO", price: 6, qt: 1, ingredients: ["Mousse al gianduia","cuore croccante di\"Tonda e Gentile delle Langhe\"","soffice bisquit","glassa al cioccolato al latte e granella di nocciola"] , img:""},
+  { name: "AMBRA", price: 6, qt: 1, ingredients: ["Frolla alla vaniglia","cremoso al cioccolato al caramello gold","mousse al cioccolato bianco","glassa al caramello e mandorle caramellate"] , img:""},
+  { name: "SNICKERS", price: 6, qt: 1, ingredients: ["Croccante alle arachidi","bisquit al cacao,cremoso al caramello salato","mousse al cioccolato al latte","ricoperto da un pralinato alle arachidi"] , img:""},
+  { name: "NUVOLA", price: 6, qt: 1, ingredients: ["Mousse al cocco con cuore morbido di cioccolato fondente","cocco rapè","soffice biscotto al cioccolato"] , img:""},
+  { name: "PROFITEROLES", price: 6, qt: 1, ingredients: ["Morbidi bignè di pasta choux ripieni di crema al gianduia","glassa al cioccolato fondente","adagiati su un morbido biscotto al cioccolato e nocciole","decorati con foglia d'oro"] , img:""},
+  { name: "CHEESECAKE AI FRUTTI DI BOSCO", price: 6, qt: 1, ingredients: ["stresel alle mandorle","crema al formaggio","gelée ai frutti rossi","decorata con frutti di bosco freschi"] , img:""},
+  { name: "ZUCCHERINO CHE BUONO", price: 6, qt: 1, ingredients: ["bueno su cremoso di cioccolato al caramello gold","Mousse alla vaniglia con nocciole caramellate su biscotto artigianale","cremoso di cioccolato al caramello gold"] , img:""},
+  { name: "ZUCCHERINO NUVOLA DI STELLE", price: 6, qt: 1, ingredients: ["biscotto Pan di Stelle","Mousse alla vaniglia","Biscotto al cacao su crema di cioccolato alle nocciole"] , img:""},
 ]
 
 export default FoodStore;
@@ -167,6 +179,7 @@ export {ANTIPASTI,
   BIBITE,
   VINI,
   BIRREALLASPINA,
-  BIRREINBOTTIGLIA
+  BIRREINBOTTIGLIA,
+  DOLCI
 };
   
