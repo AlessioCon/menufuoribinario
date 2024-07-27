@@ -13,9 +13,19 @@ import Colorado from "./panini/colorado.jpg";
 import Lasvegas from "./panini/lasvegas.jpg";
 import Losangeles from "./panini/losangeles.jpg";
 import Louisiana from "./panini/louisiana.jpg";
-import Seatle from "./panini/seattle.jpg";
-import Philadelphia from "./panini/philadelphia.jpg"
-import Neworleans from "./panini/neworleans.jpg"
+import Seattle from "./panini/seattle.jpg";
+import Philadelphia from "./panini/philadelphia.jpg";
+import Neworleans from "./panini/neworleans.jpg";
+import Cincinnati from "./panini/cincinnati.jpg";
+import Denver from "./panini/denver.jpg";
+import Massachusset from "./panini/massachusset.jpg";
+import Miami from "./panini/miami.jpg";
+import Orlando from "./panini/orlando.jpg";
+import Portland from "./panini/portland.jpg";
+import Sandiego from "./panini/sandiego.jpg";
+import Sanfrancisco from "./panini/sanfrancisco.jpg";
+import Santabrarbara from "./panini/santabrarbara.jpg";
+import Texas from "./panini/texas.jpg";
 
 export default {
     Logo,
@@ -31,8 +41,18 @@ export default {
     Lasvegas,
     Losangeles ,
     Louisiana ,
-    Seatle,
+    Seattle,
     Philadelphia,
-    Neworleans, 
+    Neworleans,
+    Cincinnati,
+    Denver,
+    Massachusset, 
+    Miami,
+    Orlando, 
+    Portland,
+    Sandiego,
+    Sanfrancisco, 
+    Santabrarbara,
+    Texas,
     NotFound
 }
